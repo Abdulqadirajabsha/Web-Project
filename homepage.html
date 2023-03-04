@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Expense Calculator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/calculator.png">
+    <link rel="stylesheet" href="CSS-files/homepage.css">
+</head>
+<body>
+    <h1>Expense Calculator</h1>
+
+    <h2>Enter your details</h2>
+<form id="details">
+     <label>Date:</label>
+    <input type="date" id="date" placeholder="Enter date">
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Enter item name">
+    <label>Category:</label>
+    <select id="category">
+    <option value= ""disabled selected>Select your option</option>
+    <option value="grocery">Grocery</option>
+    <option value="bill">Bill</option>
+    <option value="rent">Rent</option>
+    <option value="maintenance">Maintenance</option>
+    <option value="fuel">Fuel</option>
+    <option value="personal">Personal Expense</option>
+    </select>
+    <label>Quantity:</label>
+    <input type="number" id="quantity" placeholder="Enter the quantity">
+    <button id="submitbutton">Submit</button>
+</form>
+</body>
+</html>
