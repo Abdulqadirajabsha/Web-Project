@@ -1,0 +1,34 @@
+body
+{
+    background-color: aquamarine;
+    font-family:sans-serif;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40%;
+    display: contents; 
+    text-align: center;
+}
+
+button
+{
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 8px;
+  background: darkcyan;
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#credentials
+{
+  text-align: center;
+  display: inline-block;
+}
