@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="CSS-files/index.css">
 </head>
 <body>
+    <div class="header">
     <header>
-        <div class="header">
-    <h1 class="heading"> <span><img src="/Images/icons8-calculate-96.png" alt="Calculator" id="calculator-image"></span> Expense Calculator</h1>
+    </header>
+    <h1 class="heading"> <img src="/Images/icons8-calculate-96.png" alt="Calculator" id="calculator-image"> <span id="title-heading"> Expense Calculator</span></h1>
 </div>
-</header>
 <main>
     <form id="Login-Page" name="Login-Page" method="get">
         <fieldset>
             <legend>
     <h2><strong>Login Page</strong></h2>
+    <div class="login-id">
     <label>Login Id:</label>
     <input type="text" placeholder="Enter your email" type="email" required>
+</div>
+<div class="login-password">
     <label>Password:</label>
     <input type="password" placeholder="Enter your password" minlength="8" required>
-    <br></br>
+</div>
     <div class="signin-button">
     <button type="submit"><a href="homepage.html">Sign In</a></button>
 </div>

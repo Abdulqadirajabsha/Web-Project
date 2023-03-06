@@ -18,31 +18,34 @@ body {
   text-align: center;
 }
 
-h1 {
-  width: fit-content;
+.header {
+  border: 2px solid;
   background-color: #072445;
   color: #99d9ee;
   border-radius: 10px;
-  margin-top: 15px;
-  margin-left: 37.5%;
+  padding-bottom: 20px;
   padding-right: 25px;
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  width: fit-content;
+  margin: auto;
 }
 
 #calculator-image {
-  width: 50%;
-}
-
-span {
-  display: inline-block;
-  padding-bottom: 5px;
+  width: 70px;
+  padding-right: 10px;
+  padding-left: 15px;
 }
 
 form {
   margin-top: 20px;
+  line-height: 30px;
+}
+
+main h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 button {
@@ -54,8 +57,9 @@ button {
   margin: auto;
   display: flex;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.5em;
+  margin-top: 15px;
 }
 
 a {
@@ -66,6 +70,10 @@ a {
 button:hover,
 button:focus {
   background: rgb(30, 182, 182);
+}
+
+fieldset {
+  border: 0;
 }
 
 /* #signin-button {
