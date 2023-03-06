@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Expense Calculator</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Images/calculator.png">
-    <link rel="stylesheet" href="CSS-files/homepage.css">
-</head>
-<body>
-    <h1>Expense Calculator</h1>
-
-    <h2>Enter your details</h2>
-<form id="details">
-     <label>Date:</label>
-    <input type="date" id="date" placeholder="Enter date">
-    <label>Name:</label>
-    <input type="text" id="name" placeholder="Enter item name">
-    <label>Category:</label>
-    <select id="category">
-    <option value= ""disabled selected>Select your option</option>
-    <option value="grocery">Grocery</option>
-    <option value="bill">Bill</option>
-    <option value="rent">Rent</option>
-    <option value="maintenance">Maintenance</option>
-    <option value="fuel">Fuel</option>
-    <option value="personal">Personal Expense</option>
-    </select>
-    <label>Quantity:</label>
-    <input type="number" id="quantity" placeholder="Enter the quantity">
-    <button id="submitbutton">Submit</button>
-</form>
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/calculator.png" />
+    <link rel="stylesheet" href="CSS-files/homepage.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+  <h1 class="heading"> <img src="/Images/icons8-calculate-96.png" alt="Calculator" id="calculator-image"> Expense Calculator</h1>
+</div>
+</header>
+    <main>
+      <h2>Enter your details</h2>
+      <form id="expense-details">
+        <fieldset>
+          <legend>
+          <label>Date:</label>
+          <input type="date" id="date" required/>
+          <label>Name:</label>
+          <input type="text" id="name" placeholder="Enter item name" required/>
+          <label>Category:</label>
+          <select id="category" required>
+            <option disabled selected>Select your option</option>
+            <optgroup label="Grocery">
+            <option value="Fruits">Fruits</option>
+            <option value="Vegetables">Vegetables</option>
+          </optgroup>
+            <optgroup label="Bills">
+            <option value="Home Electricity">Home Electricity</option>
+            <option value="Shop Electricity">Shop Electricity</option>
+            <option value="Vehicle Maintenance">Vehicle Maintenance</option>
+            <option value="Mobile Recharge">Mobile Recharge</option>
+            <option value="Internet">Internet</option>
+            <option value="Credit Card">Credit Card</option>
+          </optgroup>
+          <optgroup label="Rent">
+            <option value="Home">Home</option>
+            <option value="Shop">Shop</option>
+          </optgroup>
+          <optgroup label="Maintenance">
+            <option value="Apartment">Apartment</option>
+            <option value="Shop">Shop</option>
+            <option value="Parking">Parking</option>]
+            <option value="Garage">Garage</option>
+            </optgroup>
+            <optgroup label="Fuel">
+            <option value="Bike">Bike</option>
+            <option value="Scooty">Scooty</option>
+            <option value="Car">Car</option>
+          </optgroup>
+            <option value="personal">Personal Expense</option>
+            <option value="other">Other</option>
+          </select>
+          <label>Quantity:</label>
+          <input type="number" id="quantity" placeholder="Select the quantity" min="0", step="1" required/>
+          <button id="submitbutton">Submit</button>
+        </legend>
+        </fieldset>
+      </form>
+    </main>
+  </body>
 </html>

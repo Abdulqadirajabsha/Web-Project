@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: #072445;
+  background-color: #99d9ee;
+}
+
+body {
+  position: relative;
+  margin: auto;
+  padding: 40%;
+  display: contents;
+  text-align: center;
+}
+
+h1 {
+  width: fit-content;
+  background-color: #072445;
+  color: #99d9ee;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 37.5%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#calculator-image {
+  width: 15%;
+  overflow: initial;
+  padding-bottom: 10px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  text-align: center;
+}
