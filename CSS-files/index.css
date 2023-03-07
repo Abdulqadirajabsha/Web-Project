@@ -30,6 +30,8 @@ body {
   justify-content: center;
   width: fit-content;
   margin: auto;
+  margin-bottom: 50px;
+  margin-top: 15px;
 }
 
 #calculator-image {
@@ -39,12 +41,18 @@ body {
 }
 
 form {
-  margin-top: 20px;
   line-height: 30px;
+  border: #072445 2px solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 main h2 {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
