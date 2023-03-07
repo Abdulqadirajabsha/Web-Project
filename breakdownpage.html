@@ -18,14 +18,49 @@
     <form id="Login-Page" name="Login-Page" method="get">
         <fieldset>
             <legend>
-    <h2><strong>Login Page</strong></h2>
-    <label>Login Id:</label>
-    <input type="text" placeholder="Enter your email" type="email" required>
-    <label>Password:</label>
-    <input type="password" placeholder="Enter your password" minlength="8" required>
-    <br></br>
-    <div class="signin-button">
-    <button type="submit"><a href="homepage.html">Sign In</a></button>
+    <h2><strong>Expenses Breakdown</strong></h2>
+    <form id="expense-details">
+        <fieldset>
+          <legend>
+          <label>Date:</label>
+          <input type="date" id="date" required/>
+          <label>Category:</label>
+          <select id="category" required>
+            <option disabled selected>Select your option</option>
+            <optgroup label="Grocery">
+            <option value="Fruits">Fruits</option>
+            <option value="Vegetables">Vegetables</option>
+          </optgroup>
+            <optgroup label="Bills">
+            <option value="Home Electricity">Home Electricity</option>
+            <option value="Shop Electricity">Shop Electricity</option>
+            <option value="Vehicle Maintenance">Vehicle Maintenance</option>
+            <option value="Mobile Recharge">Mobile Recharge</option>
+            <option value="Internet">Internet</option>
+            <option value="Credit Card">Credit Card</option>
+          </optgroup>
+          <optgroup label="Rent">
+            <option value="Home">Home</option>
+            <option value="Shop">Shop</option>
+          </optgroup>
+          <optgroup label="Maintenance">
+            <option value="Apartment">Apartment</option>
+            <option value="Shop">Shop</option>
+            <option value="Parking">Parking</option>]
+            <option value="Garage">Garage</option>
+            </optgroup>
+            <optgroup label="Fuel">
+            <option value="Bike">Bike</option>
+            <option value="Scooty">Scooty</option>
+            <option value="Car">Car</option>
+          </optgroup>
+            <option value="personal">Personal Expense</option>
+            <option value="other">Other</option>
+          </select>
+          <button id="submitbutton">Submit</button>
+        </legend>
+        </fieldset>
+      </form>
 </div>
 </legend>
 </fieldset>
