@@ -10,6 +10,19 @@ html {
   background-color: #99d9ee;
 }
 
+.nav-bar {
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  background-color: #072445;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 body {
   position: relative;
   margin: auto;
@@ -40,6 +53,11 @@ body {
   padding-left: 15px;
 }
 
+h2 {
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
 form {
   font-weight: 500;
   line-height: 30px;
@@ -54,6 +72,11 @@ form {
 
 fieldset {
   border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(265, 265, 265);
 }
 
 #submitbutton {

@@ -83,13 +83,3 @@ button:focus {
 fieldset {
   border: 0;
 }
-
-/* #signin-button {
-  text-decoration: none;
-  color: rgb(265, 265, 265);
-}
-
-#signin-button:hover,
-#signin-button:focus {
-  background: rgb(30, 182, 182);
-} */
